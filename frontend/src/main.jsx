@@ -5,7 +5,7 @@ import './index.css'
 import { UserContextProvider } from './context/UserContext.jsx'
 import { CourseContextProvider } from './context/CourseContext.jsx'
 
-export const server="https://e-learning-server-qhrx.onrender.com/"
+export const server="https://e-learning-server-qhrx.onrender.com"
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
